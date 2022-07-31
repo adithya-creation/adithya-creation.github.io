@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="apps.svg" type="image">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Apps & Games</title>
+    <style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        body{
+            background-image: linear-gradient(to bottom right,red,yellow);
+            background-image: url('appsbg.jpg');
+            margin: 0;
+            padding: 0;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .avatar {
+            vertical-align: middle;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;}
+
+        .Projects{
+          height: 350px;
+          width: 350px;
+          border-radius: 25%;
+
+        }
+        .loadmore{
+          margin: 40px 0 70px 0;
+          background: #222;
+          padding: 15px 40px ;
+          border-radius: 5px;
+          color: #fff;
+          font-size: 1.2em;
+          text-decoration: none;
+          font-weight: bolder;
+          letter-spacing: 3px;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          border:none;
+  
+        }
+        ul{
+            list-style: none;
+        }
+        
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 7px;
+            text-align: center;
+        }
+
+        #back{
+          float: left;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx- mb-2" id="back">
+                    <li class="nav-item"><a href="projects.html"><i class="bi bi-arrow-left" style="color:white;"></i></a></li>
+                </ul>
+                <ul class="navbar-nav mx-auto mb-auto mb-lg-0">
+                 <li class="nav-item"><h1 style="text-align:center;color:white">Apps & Games</h1></li>
+                </ul>
+                <ul class="navbar-nav mx- mb-2 mb-lg-0">
+                    <li class="nav-item" style="float:right;"><img src="unnamed.webp" alt="Avatar" class="avatar"></li>
+                </ul>
+            </div>
+        </div>
+        
+        
+        
+    </nav>
+    <br>
+    <br><br>
+
+    <div class="text-center">
+    <a href="#" download="Voice_Calculator.apk" target="_blank"><img src="voicecalci.png" class="Projects" alt="apps">
+    <br><br>
+    <h1>Voice Calculator</h1></a>
+  </div>
+<hr>
+<div class="text-center">
+    <a href="ttt.html" target="_blank"><img src="ttt.jpg" class="Projects" alt="Tic Tac Toe">
+    <br><br>
+    <h1>Tic Tac Toe</h1></a>
+  </div>
+<hr>
+<div class="text-center">
+    <a href="rps.html" target="_blank"><img src="rps.jpg" class="Projects" alt="Rock Paper Scissor">
+    <br><br>
+    <h1>Rock Paper Scissor</h1></a>
+  </div>
+<hr>
+<div class="text-center">
+      <a href="piano.html" target="_blank"><img src="piano.jpg" class="Projects" alt="Piano">
+      <br><br>
+      <h1>Piano</h1></a>
+    </div>
+
+    <div class="text-center">
+        <button class="loadmore" style="background: #222;"><a href="#" onclick="alertmsg()">Load More</a></button>
+    </div>
+
+    
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2" style="color:white;" target="_blank">Home</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link active" aria-current="page" style="color:white;" target="_blank">Projects</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id ="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white;">
+              Social
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCTuRjPFx58vP7bkiRCG2rCg" target="_blank">YouTube</a></li>
+              <li><a class="dropdown-item" href="https://www.facebook.com/adithyamittapelli888" target="_blank">Facebook</a></li>
+              <li><a class="dropdown-item" href="https://www.instagram.com/adithyaglobal/" target="_blank">Instagram</a></li>
+              <li><a class="dropdown-item" href="https://pin.it/6jjA3SI" target="_blank">Pinterest</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="contact.html" class="nav-link px-2" style="color:white;" target="_blank">Contact Us</a></li>
+        </ul>
+        <p class="text-center" style="color:white;">© 2022 Adithya Creation, Inc</p>
+      </footer>
+
+      <script>
+        function alertmsg(){
+          alert("More apps are available soon !!!");
+          }
+        </script>
+</body>
+</html>

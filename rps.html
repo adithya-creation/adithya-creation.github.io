@@ -1,0 +1,104 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="icon" href="rps.jpg" type="image">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="rps.css">
+	<title>Rock Paper Scissor</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black;">
+        <div class="container-fluid">
+          <img src="adi.jpg" alt="mylogo" width="100" height="63" class="d-block mx-auto mb-2 align-text-top" style="padding-top:10px;">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html" target="_blank">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="projects.html" target="_blank">Projects</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Social
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCTuRjPFx58vP7bkiRCG2rCg" target="_blank">YouTube</a></li>
+                  <li><a class="dropdown-item" href="https://www.facebook.com/adithyamittapelli888" target="_blank">Facebook</a></li>
+                  <li><a class="dropdown-item" href="https://www.instagram.com/adithyaglobal/" target="_blank">Instagram</a></li>
+                  <li><a class="dropdown-item" href="https://pin.it/6jjA3SI" target="_blank">Pinterest</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" target="_blank">Contact Us</a>
+              </li>
+          </div>
+          <div id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-auto mb-lg-0">
+              
+              <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/adithyamittapelli888" target="_blank"><i class="bi bi-facebook"></i></a></li>
+              <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/adithyaglobal/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+              <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCTuRjPFx58vP7bkiRCG2rCg" target="_blank"><i class="bi bi-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+	<section class="game">
+		<!--Title -->
+		<div class="title">Rock Paper Scissor</div>
+		<br><br>
+		<!--Display Score of player and computer -->
+		<div class="score">
+			<div class="playerScore">
+				<h2>Player</h2>
+				<p class="p-count count">0</p>
+
+			</div>	
+			<div class="computerScore">
+				<h2>Computer</h2>
+				<p class="c-count count">0</p>
+
+			</div>
+		</div>
+        <br><br><br><br><br><br><br><br><br>
+
+		<div class="move">Choose your move</div>
+		
+		<!--Number of moves left before game ends -->
+		<div class="movesleft">Moves Left: 10 </div>
+		
+		<!--Options available to player to play game -->
+		<div class="options">
+			<button class="rock">Rock</button>
+			<button class="paper">Paper</button>
+			<button class="scissor">Scissors</button>
+		</div>
+		<br>
+		<!--Final result of game -->
+		<div class="result"></div>
+		
+		<!--Reload the game -->
+		<button class="reload"></button>
+
+<div class="text-center">
+  <button class="loadmore"><a href="#" onclick="alertmsg()" download="#">Download Game</a></button>
+</div>
+
+	</section>
+    <footer class="py-3 l-7">
+        <p class="text-center" style="color:white;">© 2022 Adithya Creation, Inc</p>
+      </footer>
+
+	<script src="rps.js"></script>
+</body>
+</html>

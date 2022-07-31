@@ -1,0 +1,119 @@
+body{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: #66bfbf;
+    font-size: 5.65rem;
+    margin: 50px auto 0 auto;
+    font-family: cursive;
+}
+
+h2{
+    color: rgb(173, 49, 255);
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #ff7b00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    line-height:2;
+}
+
+hr{
+    border: dotted #40514e 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: 100px auto;
+}
+
+a{
+    color: #1181ad;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{color: brown;}
+
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 80px;
+    margin-bottom: 60px;
+
+}
+
+.middle-conatiner{
+    margin: 100px 0;
+}
+
+.skill-row{
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 20px 0 20px;
+    margin-top: 70px;
+}
+
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.designing{
+    width:25%;
+    float:left;
+    margin-right:30px;
+}
+
+.graphic-pic{
+    width:25%;
+    float:right;
+    margin-left: 30px;
+    
+}
+
+.game-pic{
+    width:25%;
+    float:left;
+    margin-right:30px;
+}
+
+.profile-pic{  
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+
+.contact{
+    background: #11999e;
+    padding: 10px 20px;
+    border-radius: 5%;
+    font-weight: bold;
+    color: white;
+}
+
+.contact:hover{color: #fbff00;}

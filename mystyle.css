@@ -1,0 +1,111 @@
+body{
+    background-image: url('bgimg.jpg');
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+}
+  
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.name{
+    font-family: cursive;
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+.name p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.name h1{
+    font-family: 'Poppins';
+    font-size: 40px;
+    margin: 0px;
+      
+    letter-spacing: 3px;
+    color:rgb(255, 115, 0);
+}
+
+.resume-btn{
+    width: 170px;
+    height: 40px;
+    display: flex;
+    background-color: #292929;
+    color: #ffffff;
+    border-radius: 3px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.para{
+    font-family: 'Be Vietnam Pro';
+}
+.resume-btn:hover{
+    background-color: #131313;
+    transition: all ease 0.5;
+}
+
+.social{
+    position: absolute;
+    left: 85px;
+    bottom: 90px;
+    display: flex;
+}
+
+.social a{
+      margin: 6px 12px;
+      color: rgb(248, 81, 3);
+  }
+  .social i{
+      font-size: 24px;
+      color: rgb(253, 169, 143);
+  }
+  .social a:hover i{
+      color: rgb(248, 81, 3);
+      transition: all ease 0.5s;
+  }
+
+  h1{
+      color: aqua ;
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+
+
+  .chat{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 75px;
+    right: 7px;
+    transform: translateY(70px);
+    transition: all 250ms ease-out;
+  }
