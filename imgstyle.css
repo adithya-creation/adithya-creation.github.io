@@ -12,9 +12,9 @@ i{
 }
 #back{
   float: left;
-  width: 3rem;
-  vertical-align: middle;
 
+  vertical-align: middle;
+  height: 2rem;
 }
 .avatar {
   vertical-align: middle;
