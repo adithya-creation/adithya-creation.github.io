@@ -4,6 +4,7 @@ body{
     padding: 0;
     background-repeat: no-repeat;
     background-size:cover;
+    background-color: black;
 }
 
 ul{
@@ -111,8 +112,6 @@ nav{
 
   @media only screen and (max-width: 540px) {
     body {
-        background-image: url('color.jpeg');
-
-        
+        background-image: url('index.jpg');
     }
 }
