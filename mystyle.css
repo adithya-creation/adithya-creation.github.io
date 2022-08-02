@@ -110,8 +110,8 @@ nav{
     transition: all 250ms ease-out;
   }
 
-  @media only screen and (max-width: 540px) {
+  @media only screen and (max-width: 740px) {
     body {
-        background-image: url('index.jpg');
+        background-image: url('index2.jpg');
     }
 }
