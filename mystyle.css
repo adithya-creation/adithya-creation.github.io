@@ -114,6 +114,10 @@ nav{
     body {
         background-image: url('color.jpeg');
     }
+    .social{
+        left: 5%;
+        bottom: 10%;
+    }
 }
 
 @media only screen and (min-resolution: 146dpi) and (max-resolution: 174dpi) {
@@ -121,11 +125,19 @@ nav{
         background-image: url('music.jpg');
 
     }
+    .social{
+
+        bottom: 10%;
+    }
 }
 
 @media only screen and (min-resolution: 175dpi) and (max-resolution: 250dpi) {
     body {
         background-image: url('pexels-21_9.jpg');
 
+    }
+    .social{
+        left: 5%;
+        bottom: 10%;
     }
 }
