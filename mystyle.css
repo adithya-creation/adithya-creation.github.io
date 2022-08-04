@@ -113,10 +113,6 @@ nav{
 @media only screen and (min-resolution: 140dpi) and (max-resolution: 145dpi) {
     body {
         background-image: url('color.jpeg');
-        .social{
-            left: 5%;
-            bottom: 10%;
-        }
     }
 }
 
