@@ -123,3 +123,17 @@ nav{
 
     }
 }
+
+@media only screen and (aspect-ratio: 15/9) {
+    body {
+        background-image: url('bluestripes.jpg');
+
+    }
+}
+
+@media only screen and (aspect-ratio: 14/9) {
+    body {
+        background-image: url('orange-blue.jpg');
+
+    }
+}
