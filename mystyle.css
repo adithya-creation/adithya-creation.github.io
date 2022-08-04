@@ -117,30 +117,3 @@ nav{
     }
 }
 
-@media only screen and (aspect-ratio: 17/9) {
-    body {
-        background-image: url('andras-resized-20_9.jpg');
-
-    }
-}
-
-@media only screen and (aspect-ratio: 15/9) {
-    body {
-        background-image: url('bluestripes.jpg');
-
-    }
-}
-
-@media only screen and (aspect-ratio: 14/9) {
-    body {
-        background-image: url('orange-blue.jpg');
-
-    }
-}
-
-@media only screen and (aspect-ratio: 13/9) {
-    body {
-        background-image: url('music.jpg');
-
-    }
-}
