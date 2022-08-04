@@ -117,14 +117,14 @@ nav{
     }
 }
 
-@media only screen and (min-resolution: 146dpi) and (max-resolution: 165dpi) {
+@media only screen and (min-resolution: 146dpi) and (max-resolution: 174dpi) {
     body {
         background-image: url('music.jpg');
 
     }
 }
 
-@media only screen and (min-resolution: 166dpi) and (max-resolution: 250dpi) {
+@media only screen and (min-resolution: 175dpi) and (max-resolution: 250dpi) {
     body {
         background-image: url('pexels-21_9.jpg');
 
