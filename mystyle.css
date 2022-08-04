@@ -110,14 +110,14 @@ nav{
     transition: all 250ms ease-out;
   }
 
-@media only screen and (aspect-ratio: 21/9) {
+@media only screen and (aspect-ratio: 18/9) {
     body {
         background-image: url('pexels-21_9.jpg');
 
     }
 }
 
-@media only screen and (aspect-ratio: 20/9) {
+@media only screen and (aspect-ratio: 19/9) {
     body {
         background-image: url('andras-resized-20_9.jpg');
 
