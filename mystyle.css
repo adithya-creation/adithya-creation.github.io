@@ -124,7 +124,7 @@ nav{
     }
 }
 
-@media only screen and (min-resolution: 166dpi) and (max-resolution: 200dpi) {
+@media only screen and (min-resolution: 166dpi) and (max-resolution: 250dpi) {
     body {
         background-image: url('pexels-21_9.jpg');
 
