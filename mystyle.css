@@ -110,10 +110,23 @@ nav{
     transition: all 250ms ease-out;
   }
 
-@media only screen and (aspect-ratio: 16/9) {
+@media only screen and (min-resolution: 140dpi) and (max-resolution: 145dpi) {
+    body {
+        background-image: url('color.jpeg');
+
+    }
+}
+
+@media only screen and (min-resolution: 146dpi) and (max-resolution: 165dpi) {
+    body {
+        background-image: url('music.jpg');
+
+    }
+}
+
+@media only screen and (min-resolution: 166dpi) and (max-resolution: 200dpi) {
     body {
         background-image: url('pexels-21_9.jpg');
 
     }
 }
-
