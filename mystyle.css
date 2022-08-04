@@ -137,3 +137,10 @@ nav{
 
     }
 }
+
+@media only screen and (aspect-ratio: 13/9) {
+    body {
+        background-image: url('music.jpg');
+
+    }
+}
