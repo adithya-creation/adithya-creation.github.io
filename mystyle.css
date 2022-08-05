@@ -112,7 +112,7 @@ nav{
 
 @media only screen and (min-resolution: 140dpi) and (max-resolution: 145dpi) {
     body {
-        background-image: url('color.jpeg');
+        background-image: url('pexels.jpg');
         overflow: scroll;
     }
     .social{
@@ -123,7 +123,7 @@ nav{
 
 @media only screen and (min-resolution: 146dpi) and (max-resolution: 174dpi) {
     body {
-        background-image: url('index.jpg');
+        background-image: url('pexels.jpg');
         overflow: scroll;
 
     }
