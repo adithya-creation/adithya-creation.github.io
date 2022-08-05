@@ -113,6 +113,7 @@ nav{
 @media only screen and (min-resolution: 140dpi) and (max-resolution: 145dpi) {
     body {
         background-image: url('color.jpeg');
+        overflow: scroll;
     }
     .social{
         left: 8%;
