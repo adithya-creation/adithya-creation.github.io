@@ -133,7 +133,7 @@ nav{
     }
 }
 
-@media only screen and (min-resolution: 175dpi) and (max-resolution: 280dpi) {
+@media only screen and (min-resolution: 175dpi) and (max-resolution: 270dpi) {
     body {
         background-image: url('pexelsw.jpeg');
         overflow: scroll;
@@ -145,7 +145,7 @@ nav{
     }
 }
 
-@media only screen and (device-height:720pxpx) {
+@media only screen and (device-height:720px) {
     body{
     background-image: url('bgimg.jpg');
     margin: 0;
