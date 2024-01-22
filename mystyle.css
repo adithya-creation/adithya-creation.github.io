@@ -110,7 +110,7 @@ nav{
     transition: all 250ms ease-out;
   }
 
-@media only screen and (min-resolution: 140dpi) and (max-resolution: 145dpi) {
+@media only screen and (min-resolution: 140dpi){
     body {
         background-image: url('pexels.jpg');
         overflow: scroll;
