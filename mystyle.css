@@ -144,3 +144,13 @@ nav{
         bottom: 5%;
     }
 }
+
+@media only screen and (device-height:720pxpx) {
+    body{
+    background-image: url('bgimg.jpg');
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: black;
+}
