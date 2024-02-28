@@ -207,12 +207,13 @@
           </li>
           <li class="nav-item"><a href="mailto:contactme.adithya@gmail.com" class="nav-link px-2" style="color:white;" target="_blank">Contact Us</a></li>
         </ul>
-        <p class="text-center" style="color:white;">© 2024 Adithya Creation, Inc</p>
+        <p class="text-center" style="color:white;">© <span id="year"></span> Adithya Creation, Inc</p>
       </footer>
 
 <script>
 function alertmsg(){
   alert("Currently, Music Library Is Unavailable Until Then Listen Our Music Playlist On YouTube");}
+document.querySelector("#year").textContent = new Date().getFullYear();
   </script>     
 </body>
 </html>
