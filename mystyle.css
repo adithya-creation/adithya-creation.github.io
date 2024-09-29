@@ -104,8 +104,8 @@ nav{
     align-items: center;
     justify-content: center;
     position: fixed;
-    bottom: 75px;
-    right: 7px;
+    bottom: 12.5%;
+    right: 1%;
     transform: translateY(70px);
     transition: all 250ms ease-out;
   }
